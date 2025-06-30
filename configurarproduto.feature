@@ -13,7 +13,7 @@ Funcionalidade: Configuração de produto
   Cenário: Exceder limite de produtos por venda
     Dado que estou na página do produto
     Quando seleciono mais de 10 unidades
-    Então deve exibir uma mensagem de erro "Máximo de 10 unidades por venda"
+    Então deve aparecer a <mensagem> "Máximo de 10 unidades por venda"</mensagem>
 
   Cenário: Limpar seleção
     Dado que realizei uma seleção de cor, tamanho e quantidade
