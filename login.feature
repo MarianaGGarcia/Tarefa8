@@ -13,4 +13,4 @@ Funcionalidade: Login na plataforma
     Dado que estou na página de login
     Quando informo usuário ou senha inválidos
     E clico em "Entrar"
-    Então deve exibir a mensagem de alerta "Usuário ou senha inválidos"
+    Então deve aparecer a <mensagem> "Usuário ou senha inválidos"</mensagem>
